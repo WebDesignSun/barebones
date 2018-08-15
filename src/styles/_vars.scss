@@ -1,2 +1,17 @@
-$body-bg: slateGrey;
-$body-color: white;
+@import "fonts";
+
+$montserrat-regular: MontserratRegular, sans-serif;
+$montserrat-semiblod: MontserratSemiBold, sans-serif;
+$montserrat-bold: MontserratBold, sans-serif;
+$montserrat-medium: MontserratMedium, sans-serif;
+
+$librebaskerville-bold: LibreBaskervilleBold, serif;
+$librebaskerville-regular: LibreBaskervilleRegular, serif;
+$librebaskerville-italic: LibreBaskervilleItalic, serif;
+
+$default-font: $librebaskerville-regular;
+$bold-font: $montserrat-bold;
+$accent-font: $librebaskerville-italic;
+
+$default-color: #5f5f5f;
+$accent: #d89e98;

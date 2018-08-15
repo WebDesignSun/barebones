@@ -9,10 +9,15 @@ const imageminMozjpeg = require('imagemin-mozjpeg');
  */
 mix.webpackConfig({
   plugins: [
-      new CopyWebpackPlugin([{
-          from: 'src/images',
-          to: 'images', // Laravel mix will place this in 'public/img'
-      }]),
+      new CopyWebpackPlugin([
+          {
+              from: 'src/images',
+              to: 'images', // Laravel mix will place this in 'public/img'
+          },
+          {
+              from: 'src/fonts',
+              to: 'fonts', // Laravel mix will place this in 'public/img'
+          }]),
       new ImageminPlugin({
           test: /\.(jpe?g|png|gif|svg)$/i,
           plugins: [
@@ -41,7 +46,9 @@ mix.browserSync('barebones.test');
 mix.js('src/scripts/main.js', 'dist/scripts/')
    .sass('src/styles/main.scss', 'dist/styles/')
    .setPublicPath('dist');
-
+mix.options({
+    processCssUrls: false, // Process/optimize relative stylesheet url()'s. Set to false, if you don't want them touched.
+});
 
 // Full API
 // mix.js(src, output);
