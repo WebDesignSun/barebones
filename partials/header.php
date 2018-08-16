@@ -43,7 +43,7 @@
                 <a href="#">Hair Loss</a>
             </li>
             <li>
-                <a href="#">Body</a>
+                <a href="/service">Body</a>
                 <div class="submenu">
                     <ul class="submenu-inner">
                         <li>

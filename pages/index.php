@@ -24,7 +24,7 @@
                     <div class="banners-text">
                         <h3>Not happy with your <span class="accent-font">body</span>?</h3>
                         <p>Not happy with your body? It’s not called stubborn fat for not nothing! Not matter what you do - eat healthly and exercise regularly - it seems impossible to get rid of that extra bit of belly fat, those love handles...</p>
-                        <a href="#" class="button">Read More</a>
+                        <a href="/service" class="button">Read More</a>
                     </div>
                 </div>
             </div>
