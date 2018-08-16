@@ -2,132 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="967289ee-bd84-4b45-8a00-33ef09a968da" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/about.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/about/me.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partials/nav.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/OwlCarousel/_owl.carousel.sass" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/OwlCarousel/owl.carousel.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_alert.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_badge.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_breadcrumb.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_button-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_card.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_carousel.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_close.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_code.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_custom-forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_dropdown.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_functions.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_images.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_input-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_jumbotron.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_list-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_media.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_modal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_navbar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_pagination.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_popover.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_print.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_progress.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_reboot.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_root.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_tables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_tooltip.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_transitions.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_type.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_utilities.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/bootstrap-grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/bootstrap-reboot.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/bootstrap.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_alert.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_background-variant.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_badge.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_border-radius.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_box-shadow.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_breakpoints.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_caret.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_clearfix.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_float.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_gradients.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_grid-framework.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_hover.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_image.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_list-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_lists.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_nav-divider.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_navbar-align.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_pagination.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_reset-text.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_resize.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_screen-reader.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_size.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_table-row.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_text-emphasis.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_text-hide.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_text-truncate.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_transition.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/mixins/_visibility.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/utilities/_align.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/utilities/_background.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/utilities/_borders.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/utilities/_clearfix.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/utilities/_display.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/utilities/_embed.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/utilities/_flex.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/utilities/_float.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/utilities/_position.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/utilities/_screenreaders.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/utilities/_sizing.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/utilities/_spacing.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/utilities/_text.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/bootstrap-4.0.0/scss/utilities/_visibility.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/equalheights/jquery.equalheights.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/jquery/dist/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/equalheights.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/_layout.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/_libs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/blocks/_blocks.scss" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/banner-1.jpg" afterPath="$PROJECT_DIR$/src/images/banner-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/banner-2.jpg" afterPath="$PROJECT_DIR$/src/images/banner-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/banner-3.jpg" afterPath="$PROJECT_DIR$/src/images/banner-3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/favicon/apple-touch-icon-114x114.png" afterPath="$PROJECT_DIR$/src/images/favicon/apple-touch-icon-114x114.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/favicon/apple-touch-icon-72x72.png" afterPath="$PROJECT_DIR$/src/images/favicon/apple-touch-icon-72x72.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/favicon/apple-touch-icon.png" afterPath="$PROJECT_DIR$/src/images/favicon/apple-touch-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/logo.png" afterPath="$PROJECT_DIR$/src/images/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/next-ba.png" afterPath="$PROJECT_DIR$/src/images/next-ba.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/next.png" afterPath="$PROJECT_DIR$/src/images/next.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/prev-ba.png" afterPath="$PROJECT_DIR$/src/images/prev-ba.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/prev.png" afterPath="$PROJECT_DIR$/src/images/prev.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/services/before-after-1.jpg" afterPath="$PROJECT_DIR$/src/images/services/before-after-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/services/before-after-2.jpg" afterPath="$PROJECT_DIR$/src/images/services/before-after-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/services/service-body.jpg" afterPath="$PROJECT_DIR$/src/images/services/service-body.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/team-1.jpg" afterPath="$PROJECT_DIR$/src/images/team-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/team-2.jpg" afterPath="$PROJECT_DIR$/src/images/team-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/team-3.jpg" afterPath="$PROJECT_DIR$/src/images/team-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/main.js" afterPath="$PROJECT_DIR$/dist/scripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/main.css" afterPath="$PROJECT_DIR$/dist/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/index.php" afterPath="$PROJECT_DIR$/pages/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/service.php" afterPath="$PROJECT_DIR$/pages/service.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/footer.php" afterPath="$PROJECT_DIR$/partials/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/head.php" afterPath="$PROJECT_DIR$/partials/head.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/header.php" afterPath="$PROJECT_DIR$/partials/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/main.js" afterPath="$PROJECT_DIR$/src/scripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/main.scss" afterPath="$PROJECT_DIR$/src/styles/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/media.scss" afterPath="$PROJECT_DIR$/src/styles/media.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn-error.log" afterPath="$PROJECT_DIR$/yarn-error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -148,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -264,11 +140,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -311,9 +187,9 @@
         <option value="$PROJECT_DIR$/pages/index.php" />
         <option value="$PROJECT_DIR$/pages/team-list.php" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/styles/main.scss" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -431,12 +307,12 @@
       <workItem from="1534340714443" duration="77000" />
       <workItem from="1534341823935" duration="2532000" />
       <workItem from="1534349239710" duration="2897000" />
-      <workItem from="1534424630838" duration="8360000" />
+      <workItem from="1534424630838" duration="8759000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13866000" />
+    <option name="totallyTimeSpent" value="14265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -755,14 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/scss/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -796,6 +664,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
