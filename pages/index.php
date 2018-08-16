@@ -1,4 +1,5 @@
 <?php partial('header') ?>
+<main>
     <section class="main-banners">
         <div class="container-fluid">
             <div class="row banners-row" style="background-image: url(src/images/banner-1.jpg);">
@@ -39,23 +40,37 @@
                 <div class="col-md-4">
                     <div class="team-card">
                         <div class="worker-portrait">
-                            <img src="src/images/team-1.jpg" alt="">
+                            <img src="src/images/team-1.jpg" alt="Yves Herbert">
                         </div>
                         <h4 class="worker-name">Dr. Yves Herbert</h4>
                         <p class="worker-descript">
                             Dr. Herbert has always distinquished himself by his realistic and respectful approach to the practice of aestetic medicine as well as his ability to listen to the needs of his patients.
                         </p>
+                        <a href="/team-list" class="button">Read more</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="team-card">
                         <div class="worker-portrait">
-                            <img src="src/images/team-2.jpg" alt="">
+                            <img src="src/images/team-3.jpg" alt="Yves Herbert">
+                        </div>
+                        <h4 class="worker-name">Dr. Marie-Eve Lacasse</h4>
+                        <p class="worker-descript">
+                            Dr. Marie-Eve Lacasse completed her medical degree at the University of Montreal in 2007. She then obtained a Specialist Certificate in Family Medicine in 2011.
+                        </p>
+                        <a href="/team-list" class="button">Read more</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-card">
+                        <div class="worker-portrait">
+                            <img src="src/images/team-2.jpg" alt="Sebastien Labrecque">
                         </div>
                         <h4 class="worker-name">Dr. Sebastien Labrecque</h4>
                         <p class="worker-descript">
                             Dr. Sébastien Labrecque After graduating from the School of Medicine at McGill University, dr. Labrecque choose to do this residency in family medecine at the University of Montreal.
                         </p>
+                        <a href="/team-list" class="button">Read more</a>
                     </div>
                 </div>
             </div>
@@ -210,4 +225,6 @@
             </div>
         </div>
     </section>
+</main>
+
 <?php partial('footer') ?>

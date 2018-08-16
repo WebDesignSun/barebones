@@ -1,4 +1,3 @@
-/* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   /////////HEADER MEDIA//////////
   .submenu {
@@ -39,6 +38,21 @@
     .news-card {
       h4.news-title, p.news-text {
         padding: 0 30px;
+      }
+    }
+  }
+  //////////TEAM PAGE MEDIA////////
+  section.team-list {
+    .worker-descript {
+      padding: 60px 20px 60px 10px;
+    }
+  }
+  //////////TEAM SINGLE MEDIA///////
+  section.team-single {
+    .worker-descript {
+      margin-top: 20px;
+      .worker-name, .sect_title {
+        text-align: center;
       }
     }
   }
@@ -178,6 +192,40 @@
       }
     }
   }
+  ///////////SERVICE QUESTIONS MEDIA///////
+  section.questions {
+    .faq-item {
+      .faq-title {
+        font-size: 20px;
+      }
+    }
+  }
+  main.service-questions {
+    section.servise-banner {
+      .banners-row {
+        background-position: top center;
+      }
+    }
+  }
+  //////////TEAM PAGE MEDIA////////
+  section.team-list {
+    .sect_title p {
+      font-size: 22px;
+      margin-top: 20px;
+    }
+    .worker-descript {
+      padding: 50px 20px;
+      max-width: 100%;
+      text-align: center;
+    }
+    .row {
+      &:nth-of-type(odd) {
+        .worker-descript {
+          text-align: left;
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -202,6 +250,13 @@
         max-width: 400px;
         margin: 0 auto 15px auto;
       }
+    }
+  }
+  //////////TEAM SINGLE MEDIA///////
+  section.team-single {
+    padding-bottom: 70px;
+    .worker-image {
+      height: 350px;
     }
   }
 }
@@ -266,6 +321,20 @@
       font-size: 55px;
     }
   }
+  ///////////SERVICE QUESTIONS MEDIA///////
+  section.questions {
+    .faq-item {
+      .faq-title {
+        font-size: 16px;
+      }
+    }
+  }
+  //////////TEAM PAGE MEDIA////////
+  section.team-list {
+    .sect_title p {
+      font-size: 17px;
+    }
+  }
   ////////////////FOOTER MEDIA//////////////
   footer {
     form input {
@@ -274,6 +343,12 @@
     .w_line .copyright {
       text-align: center;
       padding: 0 15px;
+    }
+  }
+  //////////TEAM SINGLE MEDIA///////
+  section.team-single {
+    .worker-name {
+      font-size: 30px;
     }
   }
 }

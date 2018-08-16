@@ -26,7 +26,7 @@
         </ul>
     </div>
     <div class="logo">
-        <img src="src/images/logo.png" alt="Dr. Yves Herbert">
+        <a href="/index"><img src="src/images/logo.png" alt="Dr. Yves Herbert"></a>
     </div>
     <h1 class="hidden entry-title">Dr. Yves Herbert</h1>
     <div class="sandv-wrap">
@@ -40,7 +40,7 @@
                 <a href="#">About</a>
             </li>
             <li>
-                <a href="#">Hair Loss</a>
+                <a href="/service-questions">Hair Loss</a>
             </li>
             <li>
                 <a href="/service">Body</a>
@@ -85,5 +85,3 @@
         </ul>
     </nav>
 </header>
-
-<main>

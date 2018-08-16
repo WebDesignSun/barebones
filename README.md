@@ -1,3 +1,14 @@
+##Please, set the container widths after installation of modules
+
+you can set it in bootstrap/scss/_variables.scss (line 183)
+
+`$container-max-widths: (`<br/>
+        `sm: 1145px,`<br/>
+        `md: 1145px,`<br/>
+        `lg: 1145px,`<br/>
+        `xl: 1145px`<br/>
+`) !default;`
+
 # Barebones
 Barebones starter template for static site integrations.
 

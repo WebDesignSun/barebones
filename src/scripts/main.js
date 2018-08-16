@@ -1,4 +1,9 @@
-$(document).ready(function(){
+import $ from 'jquery';
+
+window.$ = window.jQuery = $;
+
+$(document).ready(function() {
+
     $('.nav-trigger').on('click touch', function () {
         $(this).toggleClass('is-active');
         $('.main-menu').toggleClass('active');
@@ -53,19 +58,26 @@ $(document).ready(function(){
         }
     });
 
+    $(".faq-item").on("click", function(){
+        let $this = $(this);
+        $this.toggleClass('active');
+        $this.find('.faq-answer').slideToggle();
+    });
 
     $(".news-text").equalHeights();
     $(".news-title").equalHeights();
-    $(".service-title").equalHeights();
-    $(".service-descr").equalHeights();
+    $(".service-content").equalHeights();
+    $(".team-card .worker-name").equalHeights();
+    $(".team-card .worker-descript").equalHeights();
 
     $(window).resize(function () {
 
-        $(".news-text, .news-title, .service-title, .service-descr").removeAttr('style');
+        $(".news-text, .news-title, .service-content,.team-card .worker-name,.team-card .worker-descript").removeAttr('style');
         $(".news-text").equalHeights();
         $(".news-title").equalHeights();
-        $(".service-title").equalHeights();
-        $(".service-descr").equalHeights();
+        $(".service-content").equalHeights();
+        $(".team-card .worker-name").equalHeights();
+        $(".team-card .worker-descript").equalHeights();
 
         if($(window).width() <= 768){
             $('.main-menu > ul > li > a').on('click touch', function (e) {
@@ -81,3 +93,17 @@ $(document).ready(function(){
         }
     });
 });
+
+//equal heights function
+!function (a) {
+    a.fn.equalHeights = function () {
+        let b = 0, c = a(this);
+        return c.each(function () {
+            let c = a(this).innerHeight();
+            c > b && (b = c)
+        }), c.css("height", b)
+    }, a("[data-equal]").each(function () {
+        let b = a(this), c = b.data("equal");
+        b.find(c).equalHeights()
+    })
+}(jQuery);

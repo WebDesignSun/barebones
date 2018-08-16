@@ -1,11 +1,17 @@
 @import "vars";
 @import "mixins";
-
 @import "base";
-@import "layout";
-@import "libs";
-@import "blocks/blocks";
 @import "fonts";
+@import "~owl.carousel.scss/assets/owl.carousel";
+@import "~bootstrap/scss/bootstrap-grid";
+
+//PLEASE, SET THE CONTAINER WIDTHS IN bootstrap/scss/_variables.scss (line 183)
+//$container-max-widths: (
+//        sm: 1145px,
+//        md: 1145px,
+//        lg: 1145px,
+//        xl: 1145px
+//) !default;
 
 .click_layer {
   position: absolute;
@@ -246,6 +252,7 @@
 
 //HOMEPAGE TEAM SECTION
 section.team {
+  padding-bottom: 70px;
   .sect_title {
     margin-top: 80px;
     margin-bottom: 60px;
@@ -255,20 +262,25 @@ section.team {
 .team-card {
   max-width: 330px;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
   color: #5d5959;
-  .worker-name {
-    font-size: 26px;
-    font-family: $librebaskerville-regular;
-    font-weight: 200;
-    margin: 40px 0 20px 0;
+  p {
+    margin-bottom: 40px;
   }
-  .worker-descript {
-    font-family: $librebaskerville-regular;
-    font-size: 15px;
-    letter-spacing: 0.7px;
-    line-height: 1.5;
-  }
+}
+
+.worker-name {
+  font-size: 26px;
+  font-family: $librebaskerville-regular;
+  font-weight: 200;
+  margin: 40px 0 20px 0;
+}
+
+.worker-descript {
+  font-family: $librebaskerville-regular;
+  font-size: 15px;
+  letter-spacing: 0.7px;
+  line-height: 26px;
 }
 
 //HOMEPAGE NEWS SECTION
@@ -461,7 +473,9 @@ section.services-list {
     text-align: center;
     position: relative;
     .service-icon {
-      height: 84px;
+      height: 144px;
+      width: 144px;
+      margin: 0 auto;
       background: center no-repeat;
       background-size: contain;
     }
@@ -469,7 +483,7 @@ section.services-list {
       font-size: 14px;
       line-height: 22px;
       max-width: 135px;
-      margin: 20px auto 25px auto;
+      margin: 0 auto 25px auto;
       font-family: $montserrat-semiblod;
       text-transform: uppercase;
     }
@@ -477,7 +491,10 @@ section.services-list {
       font-size: 14px;
       line-height: 26px;
       max-width: 150px;
-      margin: 0 auto 35px auto;
+      margin: 0 auto;
+    }
+    .service-content {
+      margin-bottom: 35px;
     }
     &::after {
       content: "";
@@ -570,8 +587,8 @@ section.before-after {
 }
 
 section.consultation {
-  background-color: #f6f5f5;
   padding-bottom: 50px;
+  background-color: #f6f5f5;
   p.cosult-text {
     max-width: 750px;
     margin: 0 auto 35px auto;
@@ -647,7 +664,194 @@ section.consultation {
   }
 }
 
+//////////SERVICE QUESTIONS STYLES///////////////
+main.service-questions {
+  section.services-list {
+    .sect_title p {
+      max-width: 100%;
+    }
+    .service-item {
+      .service-title {
+        max-width: 160px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  section.before-after {
+    background-color: #f6f5f5;
+    .owl-nav {
+      top: 85px;
+    }
+    .item {
+      h4 {
+        margin-bottom: 5px;
+      }
+      p {
+        text-transform: none;
+        font-family: $librebaskerville-regular;
+        margin-top: 0;
+      }
+    }
+  }
+  section.servise-banner {
+    .banners-row {
+      background-position: top left;
+    }
+  }
+}
 
+section.questions {
+  padding-bottom: 115px;
+  .sect_title {
+    margin: 100px 0 50px 0;
+  }
+  .faq-row {
+    > *:last-of-type {
+      .faq-item {
+        border-bottom: 2px solid #cccaca;
+      }
+    }
+  }
+  .faq-item {
+    position: relative;
+    border-top: 2px solid #cccaca;
+    padding: 27px 40px 27px 0;
+    cursor: pointer;
+    .faq-title {
+      font-weight: 200;
+      line-height: 1;
+      font-size: 26px;
+      margin: 0;
+    }
+    .faq-answer {
+      margin-top: 25px;
+      display: none;
+      font-size: 14px;
+      line-height: 26px;
+      p {
+        margin: 0;
+      }
+      ul {
+        padding-left: 50px;
+        margin-top: 0;
+        li {
+          list-style-type: disc;
+        }
+      }
+    }
+    span.plus {
+      display: block;
+      position: absolute;
+      right: 25px;
+      transition: all 0.5s ease;
+      top: 40px;
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #999696;
+        width: 26px;
+        height: 2px;
+      }
+      &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 2px;
+        height: 26px;
+        background-color: #999696;
+        transition: all 0.4s ease;
+        transform-origin: center center;
+      }
+    }
+    &.active {
+      span.plus {
+        transform: rotate(135deg);
+      }
+    }
+  }
+}
+
+/////////////////////TEAM STYLES/////////////////////////
+section.team-list {
+  .sect_title {
+    padding: 0 15px;
+    margin: 50px 0 60px 0;
+    p {
+      max-width: 755px;
+    }
+  }
+  .row {
+    &:nth-of-type(even) {
+      background-color: #f6f5f5;
+    }
+  }
+  .worker-descript {
+    padding: 85px 0 90px 85px;
+    max-width: 585px;
+    .worker-story {
+      margin-bottom: 45px;
+    }
+  }
+  .worker-name {
+    margin-top: 0;
+  }
+  .worker-image {
+    width: 100%;
+    height: 100%;
+    background-position: top center;
+    background-size: cover;
+    min-height: 350px;
+  }
+}
+
+/////////////TEAM SINGLE STYLES////////
+section.team-single {
+  padding-bottom: 120px;
+  .container {
+    padding-top: 40px;
+  }
+  .sect_title {
+    text-align: left;
+    h3 {
+      margin: 0;
+      line-height: 1;
+    }
+  }
+  .worker-descript {
+    padding-left: 20px;
+  }
+  .worker-image {
+    width: 100%;
+    background-position: top center;
+    background-size: cover;
+    height: 540px;
+  }
+  .worker-name {
+    margin-top: 10px;
+    font-size: 35px;
+  }
+  .worker-achievements {
+    margin-top: 40px;
+  }
+  .achievement-wrap {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: auto;
+      max-width: 100%;
+    }
+  }
+}
 
 //FOOTER STYLES
 footer {

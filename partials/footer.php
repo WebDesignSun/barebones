@@ -1,4 +1,3 @@
-</main>
 
 <footer>
     <div class="container-fluid">
@@ -19,11 +18,7 @@
     </div>
 </footer>
 
-<script
-        src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous">
-</script>
+<script src="<?= asset('scripts/main.js') ?>"></script>
 
 <script src="<?= asset('scripts/maps.js') ?>"></script>
 
@@ -33,10 +28,6 @@
         async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7pa_P0K5aXe1B1scq-lRFYmP81Y8yQmo&callback=initMap">
 </script>
-
-<script src="<?= asset('scripts/equalheights.js') ?>"></script>
-<script src="<?= asset('scripts/main.js') ?>"></script>
-
 
 
 </body>
