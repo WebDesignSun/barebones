@@ -21,7 +21,7 @@
                                 concern is always your well being. Dr. Herbert is constantly keeping himself up to date on
                                 the latest technologies as well as attending conferences world wide to ensure that he is
                                 aware of the newest treatments available. </p>
-                            <a href="/" class="button">Learn more</a>
+                            <a href="/team-single" class="button">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -36,7 +36,7 @@
                                 Montreal in 2007. She then obtained a Specialist Certificate in Family Medicine in 2011.
                                 After exploring several areas of Family Medicine she discovered her true passion is
                                 Aesthetic Medicine. </p>
-                            <a href="/" class="button">Learn more</a>
+                            <a href="/team-single" class="button">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
                                 studies in this area where he has acquired a solid expertise in sports medicine. Attentive
                                 to detail and to always be on the cutting edge in his field he developed a strong interest
                                 in aesthetic medicine. </p>
-                            <a href="/" class="button">Learn more</a>
+                            <a href="/team-single" class="button">Learn more</a>
                         </div>
                     </div>
                 </div>
