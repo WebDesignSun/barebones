@@ -4,6 +4,9 @@ window.$ = window.jQuery = $;
 
 $(document).ready(function() {
 
+    /*
+    * mobile navigation trigger function
+    */
     $('.nav-trigger').on('click touch', function () {
         $(this).toggleClass('is-active');
         $('.main-menu').toggleClass('active');
@@ -21,7 +24,9 @@ $(document).ready(function() {
         });
     });
 
-
+    /*
+    * Submenu show on mobiles (disables default event to parent menu)
+    */
     if($(window).width() <= 768){
         $('.main-menu > ul > li > a').on('click touch', function (e) {
 
@@ -35,6 +40,9 @@ $(document).ready(function() {
         });
     }
 
+    /*
+    * Homepage slider
+    */
     $("#testimonials-carousel").owlCarousel({
         items: 1,
         loop: true,
@@ -42,6 +50,10 @@ $(document).ready(function() {
         nav: true,
         navText: ['<img src="src/images/prev.png" alt="prev">','<img src="src/images/next.png" alt="next">']
     });
+
+    /*
+    * Before-after sections slider
+    */
     $("#before-after-carousel").owlCarousel({
         items: 2,
         loop: true,
@@ -58,12 +70,18 @@ $(document).ready(function() {
         }
     });
 
+    /*
+    * FAQ items toggling function
+    */
     $(".faq-item").on("click", function(){
         let $this = $(this);
         $this.toggleClass('active');
         $this.find('.faq-answer').slideToggle();
     });
 
+    /*
+    * Equal heights elements
+    */
     $(".news-text").equalHeights();
     $(".news-title").equalHeights();
     $(".service-content").equalHeights();
@@ -72,6 +90,9 @@ $(document).ready(function() {
 
     $(window).resize(function () {
 
+        /*
+        * On resize
+        */
         $(".news-text, .news-title, .service-content,.team-card .worker-name,.team-card .worker-descript").removeAttr('style');
         $(".news-text").equalHeights();
         $(".news-title").equalHeights();

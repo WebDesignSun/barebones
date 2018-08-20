@@ -1,13 +1,15 @@
-##Please, set the container widths after installation of modules
+## Installed modules and changed settings:
 
-you can set it in bootstrap/scss/_variables.scss (line 183)
-
-`$container-max-widths: (`<br/>
-        `sm: 1145px,`<br/>
-        `md: 1145px,`<br/>
-        `lg: 1145px,`<br/>
-        `xl: 1145px`<br/>
-`) !default;`
+- Installed owl.carousel.scss for sliders.
+- Changed settings of bootstrap in node_modules/bootstrap/scss/_variables.scss
+<pre>
+$container-max-widths: (
+  sm: 1145px,
+  md: 1145px,
+  lg: 1145px,
+  xl: 1145px
+) !default;
+</pre>
 
 # Barebones
 Barebones starter template for static site integrations.
