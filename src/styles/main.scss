@@ -4,6 +4,7 @@
 @import "fonts";
 @import "~owl.carousel.scss/assets/owl.carousel";
 @import "~bootstrap/scss/bootstrap-grid";
+@import "jquery.fs.selecter";
 
 //PLEASE, SET THE CONTAINER WIDTHS IN bootstrap/scss/_variables.scss (line 183)
 //$container-max-widths: (
@@ -12,6 +13,16 @@
 //        lg: 1145px,
 //        xl: 1145px
 //) !default;
+
+select::-ms-expand {
+  display: none;
+}
+
+.logo-mobile {
+  display: none;
+  max-width: 200px;
+  margin: 0 auto;
+}
 
 .click_layer {
   position: absolute;
@@ -77,6 +88,23 @@
       font-family: $montserrat-semiblod;
       font-size: 14px;
       padding-bottom: 25px;
+      i {
+        position: relative;
+        padding: 10px 0;
+        transform: translateY(-50%);
+        display: none;
+        &::before {
+          content: "\f0d7";
+          position: absolute;
+          right: -125px;
+          font-size: 22px;
+          width: 30px;
+          padding: 7px;
+        }
+        &.active {
+          transform: translateY(-50%) rotate(-180deg);
+        }
+      }
       &:hover {
         > a {
           color: $accent;
@@ -224,29 +252,34 @@
 .banners-row {
   background-size: cover;
   background-position: center;
+  .button {
+    padding: 12px 33px;
+    font-size: 20px;
+  }
   &:nth-of-type(even) {
     .banners-text {
       text-align: right;
-      padding: 100px 0 115px 90px;
+      padding: 99px 68px 110px 70px;
     }
   }
 }
 
 .banners-text {
-  padding: 100px 90px 115px 0;
+  padding: 112px 22px 121px 65px;
   h3, p {
     font-family: $librebaskerville-regular;
+    letter-spacing: 1px;
     font-weight: 300;
   }
   p {
     font-size: 16px;
-    line-height: 1.25;
-    margin-bottom: 50px;
+    line-height: 26px;
+    margin-bottom: 60px;
     letter-spacing: 1px;
   }
   h3 {
     font-size: 40px;
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
   }
 }
 
@@ -254,7 +287,7 @@
 section.team {
   padding-bottom: 70px;
   .sect_title {
-    margin-top: 80px;
+    margin-top: 60px;
     margin-bottom: 60px;
   }
 }
@@ -264,6 +297,9 @@ section.team {
   text-align: center;
   margin: 0 auto 30px auto;
   color: #5d5959;
+  .worker-portrait {
+    height: 430px;
+  }
   p {
     margin-bottom: 40px;
   }
@@ -288,7 +324,7 @@ section.news {
   background-color: #f7f6f4;
   padding-bottom: 120px;
   .sect_title {
-    margin: 80px 0 60px 0;
+    margin: 60px 0 60px 0;
   }
 }
 
@@ -300,6 +336,7 @@ section.news {
   .news-title {
     text-transform: uppercase;
     font-family: $montserrat-semiblod;
+    font-weight: 200;
   }
   p {
     font-family: $librebaskerville-regular;
@@ -318,7 +355,7 @@ section.news {
 section.contact {
   padding-bottom: 90px;
   .sect_title {
-    margin: 55px 0;
+    margin: 41px 0 44px 0;
   }
   form {
     input, textarea {
@@ -345,6 +382,7 @@ section.contact {
       background-color: #5d5959;
       color: white;
       font-family: $montserrat-semiblod;
+      font-weight: 200;
       &:hover {
         background-color: #999696;
         border-color: #999696;
@@ -356,6 +394,7 @@ section.contact {
       font-size: 14px;
       text-transform: uppercase;
       font-family: $montserrat-semiblod;
+      font-weight: 200;
       margin: 20px 0 10px 0;
     }
     ul, p {
@@ -377,7 +416,7 @@ section.testimonials {
   background-color: #f8f7f5;
   padding-bottom: 120px;
   .sect_title {
-    margin: 70px 0 65px 0;
+    margin: 57px 0 27px 0;
   }
   .testimonial-item {
     text-align: center;
@@ -385,6 +424,7 @@ section.testimonials {
     margin: 0 auto;
     p {
       font-size: 26px;
+      line-height: 45px;
     }
     h4 {
       text-transform: uppercase;
@@ -392,6 +432,7 @@ section.testimonials {
       margin-top: 40px;
       .author {
         font-family: $montserrat-semiblod;
+        font-weight: 200;
       }
       .date {
         font-family: $montserrat-regular;
@@ -448,24 +489,26 @@ section.testimonials {
 /////////////////////////////////////////////////////SERVICE PAGE START/////////////////////////////////////////////////
 section.servise-banner {
   .banners-text {
-    padding: 90px 40px 80px 40px;
+    padding: 101px 20px 75px 111px;
     p {
       margin-bottom: 0;
+      margin-top: 20px;
+      letter-spacing: 1.3px;
     }
     h3 {
       font-size: 60px;
+      line-height: 69px;
       .accent-font {
         font-size: 80px;
-        line-height: 0.9;
       }
     }
   }
 }
 
 section.services-list {
-  padding-bottom: 120px;
+  padding-bottom: 95px;
   .sect_title {
-    margin: 60px 0;
+    margin: 80px 0 40px 0;
     h3 {
       margin-bottom: 60px;
     }
@@ -477,8 +520,8 @@ section.services-list {
     text-align: center;
     position: relative;
     .service-icon {
-      height: 144px;
-      width: 144px;
+      height: 150px;
+      width: 150px;
       margin: 0 auto;
       background: center no-repeat;
       background-size: contain;
@@ -489,6 +532,7 @@ section.services-list {
       max-width: 135px;
       margin: 0 auto 25px auto;
       font-family: $montserrat-semiblod;
+      font-weight: 200;
       text-transform: uppercase;
     }
     .service-descr {
@@ -563,7 +607,10 @@ section.service-news {
 section.before-after {
   padding-bottom: 75px;
   .sect_title {
-    margin: 75px 0;
+    margin: 60px 0 60px 0;
+    p {
+      max-width: 100%;
+    }
   }
   .item {
     max-width: calc(100% - 25px);
@@ -580,12 +627,17 @@ section.before-after {
   .item {
     text-transform: uppercase;
     font-family: $montserrat-semiblod;
+    font-weight: 200;
     font-size: 14px;
     text-align: center;
   }
   a.button {
     display: block;
-    max-width: 220px;
+    max-width: 221px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    padding: 12px 0;
+    text-align: center;
     margin: 45px auto 0 auto;
   }
 }
@@ -595,14 +647,23 @@ section.consultation {
   background-color: #f6f5f5;
   p.cosult-text {
     max-width: 750px;
-    margin: 0 auto 35px auto;
+    margin: (-7px) auto 35px auto;
     font-size: 14px;
+    line-height: 26px;
     text-align: center;
   }
   .sect_title {
-    margin: 75px 0 45px;
+    margin: 54px 0 45px;
   }
   form {
+    .selecter-selected {
+      font-size: 9px !important;
+      font-family: $montserrat-regular !important;
+      color: #848484;
+      padding: 8px 10px;
+      border-radius: 0 !important;
+      border: 1px solid #5d5959;
+    }
     select, input {
       border: 1px solid #5d5959;
       text-transform: uppercase;
@@ -639,13 +700,14 @@ section.consultation {
       max-width: 360px;
       width: 100%;
       display: block;
-      margin: 30px auto 50px auto;
+      margin: 30px auto 75px auto;
       background-color: #5d5959;
       padding: 7px 0;
       font-size: 9px;
       color: white;
       letter-spacing: 1px;
       font-family: $montserrat-semiblod;
+      font-weight: 200;
       transition: all 0.4s ease;
       &:hover {
         background-color: #999696;
@@ -666,13 +728,45 @@ section.consultation {
       margin: 0;
     }
   }
+  .selecter-options {
+    max-height: 300px;
+    border: 0 !important;
+  }
+  .selecter-selected{
+    text-transform: uppercase !important;
+  }
+  .selecter-selected:after {
+    opacity: 0;
+  }
+  .selecter-item {
+    border-bottom: 1px solid #5d5959;
+    border-top: 0 !important;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-family: $montserrat-regular;
+    padding: 8px 10px;
+    width: 100%;
+    color: #848484;
+    background-color: #f6f6f6;
+    &:hover {
+      background-color: white;
+      border: 1px solid #5d5959;
+    }
+  }
 }
 
 //////////SERVICE QUESTIONS STYLES///////////////
 main.service-questions {
+  section.servise-banner {
+    .banners-text {
+      padding: 101px 50px 75px 107px;
+    }
+  }
   section.services-list {
-    .sect_title p {
-      max-width: 100%;
+    .sect_title {
+      p {
+        max-width: 100%;
+      }
     }
     .service-item {
       .service-title {
@@ -710,7 +804,10 @@ main.service-questions {
 section.questions {
   padding-bottom: 115px;
   .sect_title {
-    margin: 100px 0 50px 0;
+    margin: 94px 0 50px 0;
+    font-size: 22px;
+    word-spacing: 5px;
+    letter-spacing: 4.7px;
   }
   .faq-row {
     > *:last-of-type {
@@ -722,7 +819,7 @@ section.questions {
   .faq-item {
     position: relative;
     border-top: 2px solid #cccaca;
-    padding: 27px 40px 27px 0;
+    padding: 31px 40px 31px 0;
     cursor: pointer;
     .faq-title {
       font-weight: 200;
@@ -795,6 +892,9 @@ section.team-list {
     }
   }
   .row {
+    > :first-child {
+      min-height: 350px;
+    }
     &:nth-of-type(even) {
       background-color: #f6f5f5;
     }
@@ -812,9 +912,15 @@ section.team-list {
   .worker-image {
     width: 100%;
     height: 100%;
-    background-position: top center;
     background-size: cover;
     min-height: 350px;
+    background: no-repeat top center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
   }
 }
 
@@ -867,6 +973,10 @@ footer {
     .row {
       height: 100px;
     }
+    .wrapper {
+      width: 100%;
+      max-width: 470px;
+    }
     label {
       display: inline-block;
       width: auto;
@@ -883,6 +993,7 @@ footer {
       padding: 8px 20px;
       border: 0;
       height: 30px;
+      line-height: 0px;
       max-width: 470px;
       width: 100%;
       &::-webkit-input-placeholder {

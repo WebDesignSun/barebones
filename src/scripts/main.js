@@ -28,7 +28,9 @@ $(document).ready(function() {
     * Submenu show on mobiles (disables default event to parent menu)
     */
     if($(window).width() <= 768){
-        $('.main-menu > ul > li > a').on('click touch', function (e) {
+        $('.main-menu > ul > li > i').on('click touch', function (e) {
+
+            $(this).toggleClass('active');
 
             let submenu = $(this).parent().find('.submenu');
             let submenu_inner = $(this).parent().find('ul');
@@ -79,6 +81,8 @@ $(document).ready(function() {
         $this.find('.faq-answer').slideToggle();
     });
 
+    $('select').selecter();
+
     /*
     * Equal heights elements
     */
@@ -101,7 +105,9 @@ $(document).ready(function() {
         $(".team-card .worker-descript").equalHeights();
 
         if($(window).width() <= 768){
-            $('.main-menu > ul > li > a').on('click touch', function (e) {
+            $('.main-menu > ul > li > i').on('click touch', function (e) {
+
+                $(this).toggleClass('active');
 
                 let submenu = $(this).parent().find('.submenu');
                 let submenu_inner = $(this).parent().find('ul');

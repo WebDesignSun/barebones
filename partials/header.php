@@ -43,7 +43,7 @@
                 <a href="/service-questions">Hair Loss</a>
             </li>
             <li>
-                <a href="/service">Body</a>
+                <a href="/service">Body</a> <i class="mobile-visible fas fa-caret-down"></i>
                 <div class="submenu">
                     <ul class="submenu-inner">
                         <li>
@@ -85,3 +85,6 @@
         </ul>
     </nav>
 </header>
+<div class="logo-mobile">
+    <a href="/index"><img src="src/images/logo.png" alt="Dr. Yves Herbert"></a>
+</div>

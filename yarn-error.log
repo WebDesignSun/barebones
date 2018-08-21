@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add equal-heights
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add selecter
 
 PATH: 
   C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\ProgramData\ComposerSetup\bin;D:\ComposerSetup;E:\OSPanel\modules\php\PHP-7.1-x64;C:\Program Files (x86)\Yarn\bin\;C:\Users\Alexander\AppData\Local\Microsoft\WindowsApps;C:\Users\Alexander\AppData\Roaming\npm;C:\Users\Alexander\AppData\Roaming\Composer\vendor\bin;C:\Users\Alexander\AppData\Local\Yarn\bin
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/equal-heights: Not found
+  Error: https://registry.yarnpkg.com/selecter: Not found
       at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:64202:18)
       at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:137468:22)
       at emitTwo (events.js:126:13)
@@ -53,20 +53,21 @@ npm manifest:
       "dev": "NODE_ENV=development node node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
       "watch": "NODE_ENV=development node node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
       "hot": "NODE_ENV=development node webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
-      "production": "NODE_ENV=production  nodenode_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+      "production": "NODE_ENV=production  node node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
     },
     "devDependencies": {
       "browser-sync": "^2.23.6",
       "browser-sync-webpack-plugin": "^2.0.1",
       "copy-webpack-plugin": "^4.5.1",
-      "imagemin-webpack-plugin": "^2.1.0",
       "imagemin-mozjpeg": "^7.0.0",
+      "imagemin-webpack-plugin": "^2.1.0",
       "laravel-mix": "^2.0.0"
     },
     "dependencies": {
-      "bootstrap": "^4.0.0",
+      "bootstrap": "4.0.0",
       "equal-height": "^1.1.0",
       "jquery": "^3.3.1",
+      "owl.carousel.scss": "^1.0.1",
       "popper.js": "^1.12.9"
     }
   }
@@ -1076,9 +1077,9 @@ Lockfile:
     version "1.0.0"
     resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   
-  bootstrap@^4.0.0:
-    version "4.1.3"
-    resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.1.3.tgz#0eb371af2c8448e8c210411d0cb824a6409a12be"
+  bootstrap@4.0.0:
+    version "4.0.0"
+    resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.0.0.tgz#ceb03842c145fcc1b9b4e15da2a05656ba68469a"
   
   brace-expansion@^1.1.7:
     version "1.1.11"
@@ -5551,6 +5552,10 @@ Lockfile:
     dependencies:
       os-homedir "^1.0.0"
       os-tmpdir "^1.0.0"
+  
+  owl.carousel.scss@^1.0.1:
+    version "1.0.1"
+    resolved "https://registry.yarnpkg.com/owl.carousel.scss/-/owl.carousel.scss-1.0.1.tgz#de469ed21b1886d7a776e802186d0a2a698d7be5"
   
   p-cancelable@^0.3.0:
     version "0.3.0"

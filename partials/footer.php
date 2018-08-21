@@ -18,9 +18,13 @@
     </div>
 </footer>
 
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+
 <script src="<?= asset('scripts/main.js') ?>"></script>
 
 <script src="<?= asset('scripts/maps.js') ?>"></script>
+
+<script src="<?= asset('scripts/jquery.fs.selecter.min.js') ?>"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
