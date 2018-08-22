@@ -471,6 +471,7 @@ section.testimonials {
   transform: translateY(-50%);
   height: 60px;
   .owl-prev, .owl-next {
+    cursor: pointer;
     position: absolute;
     background-color: transparent;
     border: 0;
@@ -661,6 +662,7 @@ section.consultation {
       font-family: $montserrat-regular !important;
       color: #848484;
       padding: 8px 10px;
+      text-transform: uppercase !important;
       border-radius: 0 !important;
       border: 1px solid #5d5959;
     }
@@ -731,9 +733,6 @@ section.consultation {
   .selecter-options {
     max-height: 300px;
     border: 0 !important;
-  }
-  .selecter-selected{
-    text-transform: uppercase !important;
   }
   .selecter-selected:after {
     opacity: 0;
@@ -972,6 +971,7 @@ footer {
   form {
     .row {
       height: 100px;
+      flex-wrap: nowrap;
     }
     .wrapper {
       width: 100%;
@@ -990,10 +990,10 @@ footer {
     input {
       color: white;
       background-color: #827e71;
-      padding: 8px 20px;
+      padding: 0 20px;
       border: 0;
       height: 30px;
-      line-height: 0px;
+      line-height: 30px;
       max-width: 470px;
       width: 100%;
       &::-webkit-input-placeholder {
